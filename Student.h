@@ -2,6 +2,7 @@
 #include <string>
 using namespace std; 
 
+// This class stores info about students 
 class Student
 {
 private: 
