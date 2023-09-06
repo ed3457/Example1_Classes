@@ -1,12 +1,24 @@
 // Example1_Classes.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
-
+#include "student.h"
 #include <iostream>
 using namespace std;
 
 int main()
 {
-     cout << "Hello World!\n";
+    Student stud1;
+    Student stud2;
+
+    stud1.setYear(2022);
+    stud1.setMajor("CS");
+    stud1.setFirstName("James");
+    stud1.setLastName("Bond");
+
+    stud1.PrintFullName();
+
+    cout << stud1.ChangeMajor("English")<<endl;
+    cout << stud1.getMajor() << endl;
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
