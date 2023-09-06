@@ -4,7 +4,7 @@
 #include <format>
 using namespace std; 
 void Student::setYear(int y)
-{
+{   if (y>2020)
 	year=y;
 
 }
