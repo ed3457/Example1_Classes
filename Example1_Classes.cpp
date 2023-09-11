@@ -18,6 +18,15 @@ int main()
 
     //cout << stud1.ChangeMajor("English")<<endl;
     cout << stud1.getYear() << endl;
+    const int size = 25;
+    Student csc2110[size];
+
+    csc2110[0].setMajor("CS");
+
+    for (int i = 0;i < 25;i++)
+    {
+        csc2110[i].setMajor("CS");
+    }
 
 }
 
