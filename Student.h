@@ -29,8 +29,9 @@ public:
 	void PrintFullName();
 	bool ChangeMajor(string newMajor);
 
+	Student();// default constructor , no-argument constructor 
+	Student(int y, string fn, string ln, string mj);
 
-
-
+	~Student();
 };
 

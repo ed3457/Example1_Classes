@@ -67,3 +67,27 @@ bool Student::ChangeMajor(string newMajor)
 	else
 		return false;
 }
+
+Student::Student()
+{
+	setYear(2023);
+	setMajor("Not-Set yet");
+	setFirstName("Not-Set yet");
+	setLastName("Not-Set yet");
+
+
+}
+
+Student::Student(int y, string fn, string ln, string mj)
+{
+	setYear(y);
+	setMajor(mj);
+	setFirstName(fn);
+	setLastName(ln);
+}
+
+Student::~Student()
+{
+	// Usually, we close connections to databases, files, APIs, memory, etc... 
+
+}
